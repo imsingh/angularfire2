@@ -363,7 +363,7 @@ You **MUST** provide an `AuthConfiguration` object to use the `login` method, ho
 to pass it to login correctly. Instead you may choose to pass the configuration in through DI. This helps
 keep your components modular because they can simply call `login` and it will use whichever options were
 provided through DI.
-You can use the `firebaseAuthConfigMethod` to generate a `Provider` object which you can pass to DI like so:
+You can use the `firebaseAuthConfig` Method to generate a `Provider` object which you can pass to DI like so:
 
 ```typescript
 import {bootstrap} from 'angular2/core';
